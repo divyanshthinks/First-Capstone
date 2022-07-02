@@ -126,8 +126,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
-  z-index: -1;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 #second-list {
@@ -135,8 +135,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
-  z-index: -1;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 #third-list {
@@ -144,8 +144,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
-  z-index: -1;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 #fourth-list {
@@ -153,8 +153,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
-  z-index: -1;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 #fifth-list {
@@ -162,8 +162,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
-  z-index: -1;
   margin-bottom: 30px;
+  align-items: center;
 }
 
 .it2 {
@@ -210,14 +210,12 @@ body {
 .first {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   list-style: none;
 }
 
 .second {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   list-style: none;
 }
 
@@ -231,7 +229,6 @@ body {
   display: flex;
   flex-direction: row;
   transform: translateY(0%);
-  justify-content: space-between;
   list-style: none;
 }
 
@@ -245,7 +242,6 @@ body {
   display: flex;
   flex-direction: row;
   transform: translateY(0%);
-  justify-content: space-between;
   list-style: none;
 }
 
@@ -259,7 +255,6 @@ body {
   display: flex;
   flex-direction: row;
   transform: translateY(0%);
-  justify-content: space-between;
   list-style: none;
 }
 
@@ -273,7 +268,6 @@ body {
   display: flex;
   flex-direction: row;
   transform: translateY(0%);
-  justify-content: space-around;
   list-style: none;
 }
 
@@ -299,8 +293,8 @@ body {
 }
 
 .an1 {
-  width: 250px;
-  height: 250px;
+  width: 100px;
+  height: 100px;
 }
 
 .more {
@@ -453,37 +447,47 @@ hr {
   .nav-bar {
     display: none;
   }
+  
+  #desktop-nav {
+    background-color: #272a31; 
+  }
 
   #top {
-    background-color: #272a31;
     display: flex;
     flex-direction: row;
     justify-content: right;
-    margin: 10px;
     padding-right: 15px;
+    margin-left: 30px;
   }
 
   #twitter {
     padding-right: 10px;
+    height: 20px;
+    width: 25px;
   }
 
   #github {
     padding-right: 10px;
+    height: 20px;
+    width: 25px;
   }
 
   #Eng {
     padding-right: 10px;
     color: #d3d3d3;
+    font-size: 10px;
   }
 
   #my {
     padding-right: 10px;
     color: #d3d3d3;
+    font-size: 10px;
   }
 
   #log {
     padding-right: 10px;
     color: #d3d3d3;
+    font-size: 10px;
   }
 
   #bottom {
@@ -505,31 +509,38 @@ hr {
   }
 
   #about {
-    font-size: 10px;
+    font-size: 13px;
     color: #ec5242;
     padding-top: 20px;
   }
 
+  #about-cont {
+    font-size: 15px;
+    width: 650px;
+    background-color: white;
+    margin-bottom: 40px;
+  }
+
   #program {
-    font-size: 10px;
+    font-size: 13px;
     color: #272a31;
     padding-top: 20px;
   }
 
   #jo {
-    font-size: 10px;
+    font-size: 13px;
     color: #272a31;
     padding-top: 20px;
   }
 
   #sp {
-    font-size: 10px;
+    font-size: 13px;
     color: #272a31;
     padding-top: 20px;
   }
 
   #ne {
-    font-size: 10px;
+    font-size: 13px;
     color: #272a31;
     padding-top: 20px;
   }
@@ -538,11 +549,11 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
   }
 
   #cont {
-    text-align: center;
+    align-self: left;
   }
 
   .sched {
@@ -554,6 +565,7 @@ hr {
     background-image: url(images/patern.png);
     background-repeat: repeat;
     margin-top: 30px;
+    margin-bottom: 30px;
   }
 
   #list {
@@ -571,32 +583,87 @@ hr {
   #desk-first-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 1px solid transparent;
+  }
+
+  #desk-first-list:hover {
+    border: 4px solid beige;
   }
 
   #desk-second-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+  }
+
+  #desk-second-list:hover {
+    border: 4px solid beige;
   }
 
   #desk-third-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+  }
+
+  #desk-third-list:hover {
+    border: 4px solid beige;
   }
 
   #desk-fourth-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+  }
+
+  #desk-fourth-list:hover {
+    border: 4px solid beige;
   }
 
   #desk-fifth-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-right: 20px;
+    border: 1px solid transparent;
+  }
+
+  #desk-fifth-list:hover {
+    border: 4px solid beige;
   }
 
   .more {
     display: none;
   }
-
+  
+  .an1 {
+    width: 100px;
+    height: 100px;
+  }
   .first {
     list-style: none;
     display: flex;
@@ -644,9 +711,8 @@ hr {
   }
 
   #desk-anime-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   #desk-sect-head {
@@ -680,13 +746,23 @@ hr {
   #desk-list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+  }
+
+  #desk-list1 {
+    margin-right: 40px;
+  }
+
+  #desk-list2 {
+    margin-right: 40px;
   }
 
   #desk-partner-title {
     font-size: 25px;
     color: #d3d3d3;
     margin-bottom: 20px;
+    margin-top: 30px;
   }
 
   #desk-part-hr {
@@ -696,7 +772,7 @@ hr {
   .desk-footer-logo {
     width: 150px;
     height: 50px;
-    margin-right: 15px;
+    margin-right: 50px;
   }
 
   .desktop-footer {
@@ -705,11 +781,13 @@ hr {
     justify-content: center;
     padding-top: 50px;
     margin-top: 30px;
+    margin-bottom: 40px;
   }
 
   .desk-footer-text {
     font-size: 15px;
     color: #272a31;
+    margin-top: 17px;
   }
 
   #partners {
@@ -724,6 +802,8 @@ hr {
 
   #feature1 {
     padding-right: 15px;
+    color: transparent;
+    background-color: transparent;
   }
 
   #footer {

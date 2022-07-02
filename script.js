@@ -58,7 +58,7 @@ const animelist = [
     imageurl: 'images/Pancreas.jpg',
     animename: 'I want to eat your Pancreas',
     animesub: 'Romance',
-    animedes: 'I want to eat your pancreas<br> is a heart touching anime',
+    animedes: 'I want to eat your pancreas is a heart touching anime',
   },
 
 ];
@@ -76,14 +76,10 @@ const additems = () => {
     <div class="li-items>
     <li class="anime-name">${animelist[i].animename}</li>
     <li class="anime-sub">${animelist[i].animesub}</li>
-    <br>
     <hr>
-    <br>
-    <br>
     <li class="animedes">${animelist[i].animedes}</li>
     </div>
     </ul>
-    <br>
     `;
     card += items;
   }
