@@ -7,6 +7,11 @@ hamburger.addEventListener('click', () => {
     hamlist.classList.toggle("active");     
 });
 
+hamlist.addEventListener('click', () => {
+    hamburger.classList.remove("active");
+    hamlist.classList.remove("active");
+})
+
 const animelist = [
     {
         serial: "first",
@@ -94,7 +99,6 @@ const hide = document.querySelector(".third");
 const hide2 = document.querySelector(".fourth");
 const hide3 = document.querySelector(".fifth");
 const hide4 = document.querySelector(".sixth");
-const press2 = document.querySelector(".less");
 
 press.addEventListener('click', () => {
   press.classList.toggle("active");
@@ -104,8 +108,3 @@ press.addEventListener('click', () => {
   hide4.classList.toggle("active");
   press2.classList.toggle("active");
 });
-
-press2.addEventListener('click', () => {
-    press2.classList.remove("active");
-    press.classList.remove("active");
-})
