@@ -53,12 +53,13 @@ const animelist = [
         imageurl: "images/Pancreas.jpg",
         animename: "I want to eat your Pancreas",
         animesub: "Romance",
-        animedes: "I want to eat your pancreas is a heart touching anime"
+        animedes: "I want to eat your pancreas<br> is a heart touching anime"
     }
 
 ]
 
 const ulli = document.getElementById("anime-list");
+const deskli = document.getElementById("desk-anime-list");
 
 const additems = () => {
  let card = "";
@@ -70,6 +71,10 @@ const additems = () => {
     <div class="li-items>
     <li class="anime-name">${animelist[i].animename}</li>
     <li class="anime-sub">${animelist[i].animesub}</li>
+    <br>
+    <hr>
+    <br>
+    <br>
     <li class="animedes">${animelist[i].animedes}</li>
     </div>
     </ul>
@@ -78,6 +83,8 @@ const additems = () => {
     card += items;
  }
  ulli.innerHTML = card;
+
+ deskli.innerHTML = card;
 }
 
 additems ();
@@ -87,6 +94,7 @@ const hide = document.querySelector(".third");
 const hide2 = document.querySelector(".fourth");
 const hide3 = document.querySelector(".fifth");
 const hide4 = document.querySelector(".sixth");
+const press2 = document.querySelector(".less");
 
 press.addEventListener('click', () => {
   press.classList.toggle("active");
@@ -94,4 +102,10 @@ press.addEventListener('click', () => {
   hide2.classList.toggle("active");
   hide3.classList.toggle("active");
   hide4.classList.toggle("active");
+  press2.classList.toggle("active");
 });
+
+press2.addEventListener('click', () => {
+    press2.classList.remove("active");
+    press.classList.remove("active");
+})

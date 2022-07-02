@@ -98,6 +98,11 @@ body {
   background-repeat: repeat;
 }
 
+#sch-hr {
+  position: relative;
+  left: 150px;
+}
+
 #contain {
   display: flex;
   flex-direction: column;
@@ -173,6 +178,13 @@ body {
   height: 50px;
 }
 
+#anime-sect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #featured {
   justify-content: center;
   text-align: center;
@@ -181,11 +193,15 @@ body {
 .first {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
 }
 
 .second {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
 }
 
 .third {
@@ -198,6 +214,8 @@ body {
   display: flex;
   flex-direction: row;
   transform: translateY(0%);
+  justify-content: space-between;
+  list-style: none;
 }
 
 .fourth {
@@ -210,6 +228,8 @@ body {
   display: flex;
   flex-direction: row;
   transform: translateY(0%);
+  justify-content: space-between;
+  list-style: none;
 }
 
 .fifth {
@@ -222,6 +242,8 @@ body {
   display: flex;
   flex-direction: row;
   transform: translateY(0%);
+  justify-content: space-between;
+  list-style: none;
 }
 
 .sixth {
@@ -234,11 +256,29 @@ body {
   display: flex;
   flex-direction: row;
   transform: translateY(0%);
+  justify-content: space-around;
+  list-style: none;
 }
 
 .li-items {
   display: flex;
   flex-direction: column;
+  justify-content: end;
+}
+
+.anime-sub {
+  color: #ec5242;
+  font-size: 15px;
+}
+
+.anime-name {
+  font-size: 20px;
+  color: #272a31;
+}
+
+.animedes {
+ font-size: 10px;
+ color: #272a31;  
 }
 
 .an1 {
@@ -249,9 +289,11 @@ body {
 .more {
   justify-content: center;
   position: relative;
-  left: 100px;
+  width: 300px;
+  height: 75px;
   transform: translateY(0%);
   transition: 0.7s;
+  color: #ec5242;
 }
 
 .more.active {
@@ -369,4 +411,314 @@ hr {
   top: 25px;
   font-size: 15px;
   color: #272a31;
+}
+
+@media (min-width: 768px) {
+  .nav-bar {
+    display: none;
+  }
+  
+  #top {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 10px;
+    padding-right: 15px;
+  }
+
+  #twitter {
+    padding-right: 10px;
+  }
+
+  #github {
+    padding-right: 10px;  
+  }
+
+  #Eng {
+    padding-right: 10px;
+    color: #d3d3d3;
+  }
+
+  #my {
+    padding-right: 10px;
+    color: #d3d3d3;
+  }
+
+  #log {
+    padding-right: 10px;
+    color: #d3d3d3;
+  }
+
+  #bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+  }
+
+  #nav-logo1{
+    width: 75px;
+    height: 50px;
+  }
+
+  #nav-logo2 {
+    width: 75px;
+    height: 50px;
+  }
+
+  #about {
+    font-size: 10px;
+    color: #ec5242;
+    padding-top: 20px;
+  }
+
+  #program {
+    font-size: 10px;
+    color: #272a31;
+    padding-top: 20px;
+  }
+
+  #jo {
+    font-size: 10px;
+    color: #272a31;
+    padding-top: 20px;  
+  }
+
+  #sp {
+    font-size: 10px;
+    color: #272a31;
+    padding-top: 20px;
+  }
+
+  #ne {
+    font-size: 10px;
+    color: #272a31;
+    padding-top: 20px;
+  }
+
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+  }
+
+  #cont {
+    text-align: center;
+  }
+
+  .sched {
+    display: none;
+  }
+  
+  #desktop-sched {
+    background-color: #272a31;
+    background-image: url(images/patern.png);
+    background-repeat: repeat;
+  }
+
+  #list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #desk-head-sched {
+    justify-content: center;
+    text-align: center;
+    color: #d3d3d3;
+  }
+
+  #desk-first-list {
+    background: rgba(243, 237, 237, 0.2);
+    list-style: none;
+  }
+
+  #desk-second-list {
+    background: rgba(243, 237, 237, 0.2);
+    list-style: none;
+  }
+
+  #desk-third-list {
+    background: rgba(243, 237, 237, 0.2);
+    list-style: none;
+  }
+
+  #desk-fourth-list {
+    background: rgba(243, 237, 237, 0.2);
+    list-style: none;
+  }
+
+  #desk-fifth-list {
+    background: rgba(243, 237, 237, 0.2);
+    list-style: none;
+  }
+
+  .more {
+    display: none;
+  }
+
+  .first {
+    display: block;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .second {
+    display: block;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .third {
+    display: block;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(0%);
+  }
+
+  .fourth {
+    display: block;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(0%);
+  }
+
+  .fifth {
+    display: block;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(0%);
+  }
+
+  .sixth {
+    display: block;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(0%);
+  }
+
+  #anime-sect {
+    display: none;
+  }
+
+  #desk-anime-list {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+  }
+
+  #desk-sect-head {
+    justify-content: center;
+    text-align: center;
+    color: #272a31;
+  }
+
+  #sect-hr {
+    align-self: center;
+    justify-content: center;
+  }
+
+  #desk-anime-sect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #desk-partners {
+    background-color: #272a31;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #desk-list {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  }
+
+  #desk-partner-title {
+    font-size: 25px;
+    color: #d3d3d3;
+  }
+
+  .desk-footer-logo {
+    width: 150px;
+    height: 50px;
+    margin-right: 15px; 
+  }
+
+  .desktop-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+  }
+
+  .desk-footer-text {
+    font-size: 15px;
+    color: #272a31;
+  }
+
+  #partners {
+    display: none;
+  }
+
+  .featured-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  #feature1 {
+    padding-right: 15px;
+  }
+
+  #footer {
+    background-color: #272a31;
+  }
+
+  #footer-content {
+    color: #d3d3d3;
+  }
+
+  #logo-hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color: gray;
+  }
+}
+
+@media (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+  
+  #desktop-sched {
+    display: none;
+  }
+
+  #desk-anime-sect {
+    display: none;
+  }
+  
+  #desk-partners {
+    display: none;
+  }
+
+  .desktop-footer {
+    display: none;
+  }
 }
