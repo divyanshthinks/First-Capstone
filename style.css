@@ -1,8 +1,8 @@
 body {
-    background-size: cover;
-    background-color: #d3d3d3;
-    background-image: url(images/headline-bg.png);
-    background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d3d3d3;
+  background-image: url(images/headline-bg.png);
+  background-repeat: no-repeat;
 }
 
 * {
@@ -18,37 +18,34 @@ body {
 }
 
 .line {
-    display: block;
-    width: 30px;
-    height: 3px;
-    margin: 10px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #272a31;
-    padding-right: 30px;
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 10px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #272a31;
+  padding-right: 30px;
 }
 
-
 .hamburger {
-    display: block;
-    cursor: pointer;
-    position: relative;
-    bottom: 50px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  bottom: 50px;
 }
 
 .hamburger.active .line:nth-child(2) {
-    opacity: 0;
-    position: fixed;
+  opacity: 0;
+  position: fixed;
 }
 
-
 .hamburger.active .line:nth-child(1) {
-    transform: translateY(6px) rotate(45deg);
-
+  transform: translateY(6px) rotate(45deg);
 }
 
 .hamburger.active .line:nth-child(3) {
-    transform: translateY(-6px) rotate(-45deg);
+  transform: translateY(-6px) rotate(-45deg);
 }
 
 .ham-list {
@@ -109,6 +106,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 #sch-h {
   text-align: center;
   color: white;
@@ -277,8 +275,8 @@ body {
 }
 
 .animedes {
- font-size: 10px;
- color: #272a31;  
+  font-size: 10px;
+  color: #272a31;
 }
 
 .an1 {
@@ -343,9 +341,8 @@ body {
 
 hr {
   border: 0;
-  clear:both;
-  display:block;
-  width: 96%;               
+  clear: both;
+  display: block;
   background-color: #ec5242;
   height: 1px;
   width: 40px;
@@ -363,13 +360,12 @@ hr {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 #feature1 {
   width: 250px;
   height: 250px;
-  background: linear-gradient(236, 82, 66, 0.8);
 }
 
 #feature2 {
@@ -378,7 +374,7 @@ hr {
 }
 
 #featured-images {
-  background-color: rgba(236, 82, 66, 0.8);  
+  background-color: rgba(236, 82, 66, 0.8);
 }
 
 #partners {
@@ -417,7 +413,7 @@ hr {
   .nav-bar {
     display: none;
   }
-  
+
   #top {
     background-color: #272a31;
     display: flex;
@@ -432,7 +428,7 @@ hr {
   }
 
   #github {
-    padding-right: 10px;  
+    padding-right: 10px;
   }
 
   #Eng {
@@ -458,7 +454,7 @@ hr {
     margin-bottom: 50px;
   }
 
-  #nav-logo1{
+  #nav-logo1 {
     width: 75px;
     height: 50px;
   }
@@ -483,7 +479,7 @@ hr {
   #jo {
     font-size: 10px;
     color: #272a31;
-    padding-top: 20px;  
+    padding-top: 20px;
   }
 
   #sp {
@@ -502,7 +498,7 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
+    align-items: center;
   }
 
   #cont {
@@ -512,7 +508,7 @@ hr {
   .sched {
     display: none;
   }
-  
+
   #desktop-sched {
     background-color: #272a31;
     background-image: url(images/patern.png);
@@ -560,7 +556,6 @@ hr {
   }
 
   .first {
-    display: block;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -568,7 +563,6 @@ hr {
   }
 
   .second {
-    display: block;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -576,7 +570,6 @@ hr {
   }
 
   .third {
-    display: block;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -584,7 +577,6 @@ hr {
   }
 
   .fourth {
-    display: block;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -592,7 +584,6 @@ hr {
   }
 
   .fifth {
-    display: block;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -600,7 +591,6 @@ hr {
   }
 
   .sixth {
-    display: block;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -612,9 +602,9 @@ hr {
   }
 
   #desk-anime-list {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   #desk-sect-head {
@@ -642,9 +632,9 @@ hr {
   }
 
   #desk-list {
-   display: flex;
-   flex-direction: row;
-   justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
 
   #desk-partner-title {
@@ -655,7 +645,7 @@ hr {
   .desk-footer-logo {
     width: 150px;
     height: 50px;
-    margin-right: 15px; 
+    margin-right: 15px;
   }
 
   .desktop-footer {
@@ -694,9 +684,9 @@ hr {
 
   #logo-hr {
     border: 0;
-    clear:both;
-    display:block;
-    width: 96%;               
+    clear: both;
+    display: block;
+    width: 96%;
     background-color: gray;
   }
 }
@@ -705,7 +695,7 @@ hr {
   #desktop-nav {
     display: none;
   }
-  
+
   #desktop-sched {
     display: none;
   }
@@ -713,7 +703,7 @@ hr {
   #desk-anime-sect {
     display: none;
   }
-  
+
   #desk-partners {
     display: none;
   }
