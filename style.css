@@ -77,6 +77,7 @@ body {
 #intro-heading {
   font-size: 40px;
   color: #ec5242;
+  margin-bottom: 20px;
 }
 
 #cont {
@@ -93,11 +94,17 @@ body {
   background-color: #272a31;
   background-image: url(images/patern.png);
   background-repeat: repeat;
+  margin-top: 50px;
 }
 
 #sch-hr {
   position: relative;
-  left: 150px;
+  left: 210px;
+  margin-bottom: 10px;
+}
+
+#sch-h {
+  margin-bottom: 20px;
 }
 
 #contain {
@@ -120,6 +127,7 @@ body {
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
   z-index: -1;
+  margin-bottom: 30px;
 }
 
 #second-list {
@@ -128,6 +136,7 @@ body {
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
   z-index: -1;
+  margin-bottom: 30px;
 }
 
 #third-list {
@@ -136,6 +145,7 @@ body {
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
   z-index: -1;
+  margin-bottom: 30px;
 }
 
 #fourth-list {
@@ -144,6 +154,7 @@ body {
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
   z-index: -1;
+  margin-bottom: 30px;
 }
 
 #fifth-list {
@@ -152,6 +163,7 @@ body {
   justify-content: space-evenly;
   background: rgba(243, 237, 237, 0.2);
   z-index: -1;
+  margin-bottom: 30px;
 }
 
 .it2 {
@@ -181,11 +193,18 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 #featured {
   justify-content: center;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+#feature-hr {
+  margin-bottom: 10px;
 }
 
 .first {
@@ -303,6 +322,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 15px;
 }
 
 #about-intro {
@@ -313,6 +333,7 @@ body {
 #about-intro-heading {
   font-size: 40px;
   color: #ec5242;
+  margin-bottom: 30px;
 }
 
 #about-cont {
@@ -356,11 +377,29 @@ hr {
   border-bottom: 1px black;
 }
 
+#meetup-logo {
+  margin-bottom: 20px;
+}
+
+#meetup-des {
+  margin-top: 10px;
+}
+
 #featured-animes {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#feature-heading {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#feature-des {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 #feature1 {
@@ -393,6 +432,7 @@ hr {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 30px;
 }
 
 #footer-img {
@@ -513,6 +553,7 @@ hr {
     background-color: #272a31;
     background-image: url(images/patern.png);
     background-repeat: repeat;
+    margin-top: 30px;
   }
 
   #list {
@@ -524,6 +565,7 @@ hr {
     justify-content: center;
     text-align: center;
     color: #d3d3d3;
+    margin-bottom: 20px;
   }
 
   #desk-first-list {
@@ -611,17 +653,21 @@ hr {
     justify-content: center;
     text-align: center;
     color: #272a31;
+    margin-bottom: 20px;
   }
 
   #sect-hr {
     align-self: center;
     justify-content: center;
+    margin-bottom: 10px;
   }
 
   #desk-anime-sect {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
   }
 
   #desk-partners {
@@ -640,6 +686,11 @@ hr {
   #desk-partner-title {
     font-size: 25px;
     color: #d3d3d3;
+    margin-bottom: 20px;
+  }
+
+  #desk-part-hr {
+    margin-bottom: 10px;
   }
 
   .desk-footer-logo {
@@ -653,6 +704,7 @@ hr {
     flex-direction: row;
     justify-content: center;
     padding-top: 50px;
+    margin-top: 30px;
   }
 
   .desk-footer-text {
@@ -688,6 +740,10 @@ hr {
     display: block;
     width: 96%;
     background-color: gray;
+  }
+
+  #intro-heading {
+    margin-bottom: 20px;
   }
 }
 
