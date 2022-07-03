@@ -105,6 +105,10 @@ body {
 
 #sch-h {
   margin-bottom: 20px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  justify-content: center;
 }
 
 #contain {
@@ -112,13 +116,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#sch-h {
-  text-align: center;
-  color: white;
-  font-size: 25px;
-  justify-content: center;
 }
 
 #first-list {
@@ -447,9 +444,9 @@ hr {
   .nav-bar {
     display: none;
   }
-  
+
   #desktop-nav {
-    background-color: #272a31; 
+    background-color: #272a31;
   }
 
   #top {
@@ -549,11 +546,11 @@ hr {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: flex-start;
   }
 
   #cont {
-    align-self: left;
+    align-self: flex-start;
   }
 
   .sched {
@@ -659,11 +656,12 @@ hr {
   .more {
     display: none;
   }
-  
+
   .an1 {
     width: 100px;
     height: 100px;
   }
+
   .first {
     list-style: none;
     display: flex;
