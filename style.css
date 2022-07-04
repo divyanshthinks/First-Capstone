@@ -430,6 +430,19 @@ hr {
   background-color: #272a31;
 }
 
+.partner-img {
+  display: flex;
+  justify-content: center;
+}
+
+#partner-img1 {
+  padding-right: 10px;
+}
+
+#partner-img3 {
+  padding-left: 10px;
+}
+
 #partner-title {
   color: #d3d3d3;
 }
