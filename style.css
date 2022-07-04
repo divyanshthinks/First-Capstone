@@ -419,6 +419,7 @@ hr {
 
 #featured-images {
   background-color: rgba(236, 82, 66, 0.8);
+  text-align: center;
 }
 
 #partners {
@@ -860,5 +861,9 @@ hr {
 
   .desktop-footer {
     display: none;
+  }
+
+  .featured-images {
+    text-align: center;
   }
 }
