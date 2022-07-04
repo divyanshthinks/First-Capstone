@@ -97,6 +97,11 @@ body {
   margin-top: 50px;
 }
 
+.mobile-list {
+  display: flex;
+  flex-direction: column;
+}
+
 #sch-hr {
   position: relative;
   left: 210px;
@@ -120,8 +125,9 @@ body {
 
 #first-list {
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 0.3fr 0.5fr 1fr;
+  grid-template-rows: 100px;
   background: rgba(243, 237, 237, 0.2);
   margin-bottom: 30px;
   align-items: center;
@@ -129,8 +135,9 @@ body {
 
 #second-list {
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 0.3fr 0.5fr 1fr;
+  grid-template-rows: 100px;
   background: rgba(243, 237, 237, 0.2);
   margin-bottom: 30px;
   align-items: center;
@@ -138,8 +145,9 @@ body {
 
 #third-list {
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 0.3fr 0.5fr 1fr;
+  grid-template-rows: 100px;
   background: rgba(243, 237, 237, 0.2);
   margin-bottom: 30px;
   align-items: center;
@@ -147,8 +155,9 @@ body {
 
 #fourth-list {
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 0.3fr 0.5fr 1fr;
+  grid-template-rows: 100px;
   background: rgba(243, 237, 237, 0.2);
   margin-bottom: 30px;
   align-items: center;
@@ -156,8 +165,9 @@ body {
 
 #fifth-list {
   list-style: none;
-  display: flex;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: 0.3fr 0.5fr 1fr;
+  grid-template-rows: 100px;
   background: rgba(243, 237, 237, 0.2);
   margin-bottom: 30px;
   align-items: center;
@@ -566,8 +576,9 @@ hr {
   }
 
   #list {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 
   #desk-head-sched {
@@ -580,13 +591,11 @@ hr {
   #desk-first-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    margin-right: 20px;
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
     border: 1px solid transparent;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   #desk-first-list:hover {
@@ -596,10 +605,9 @@ hr {
   #desk-second-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
     margin-right: 20px;
     border: 1px solid transparent;
   }
@@ -611,10 +619,9 @@ hr {
   #desk-third-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
     margin-right: 20px;
     border: 1px solid transparent;
   }
@@ -626,10 +633,9 @@ hr {
   #desk-fourth-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
     margin-right: 20px;
     border: 1px solid transparent;
   }
@@ -641,10 +647,9 @@ hr {
   #desk-fifth-list {
     background: rgba(243, 237, 237, 0.2);
     list-style: none;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
     margin-right: 20px;
     border: 1px solid transparent;
   }
